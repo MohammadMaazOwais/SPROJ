@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(156, 155, 155);
+}
+
+.text-card {
+  /* Set the width and height of the card */
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Center the text in the card */
+  text-align: center;
+
+  /* Add a border to the card */
+  border: 1px solid black;
+
+  /* Add some padding to the card */
+  padding: 10px;
+
+  /* Add a box shadow to the card */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.answer-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color:blue;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rendered-question{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background-color: white;
+
+  /* Center the text in the card */
+  text-align: center;
+
+  /* Add a border to the card */
+  border: 1px solid black;
+
+  /* Add some padding to the card */
+  padding: 10px;
+
+  /* Add a box shadow to the card */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+
+  margin-top: 100px;
+
+}
+
+.counters {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

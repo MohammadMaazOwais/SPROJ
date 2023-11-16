@@ -1,0 +1,59 @@
+
+img {
+  max-width: 250px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+body {
+  font-family: 'GT-Pressura-Mono', monospace;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-start{
+  background-color: transparent;
+  font-family: 'GT-Pressura-Mono', monospace;
+  color: blue;
+  font-size: 22px; /* Adjust the font size as needed */
+  border: 2px solid blue;
+  padding: 30px 60px; /* Adjust the padding as needed */
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Remove underline for anchor tag (optional) */
+  margin-top: 20px;
+}
+
+
+
+.outer-container {
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-container {
+  background-color: yellow;
+  width: 600px;
+  height: 574px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
